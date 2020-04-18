@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\ingame">
+      <UniqueIdentifier>{63a72420-850c-45d2-bd02-6052f575370b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ingame\field">
+      <UniqueIdentifier>{4d516195-a414-4bd9-ac6b-d1cb9141e9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ingame\class">
+      <UniqueIdentifier>{7ae60336-a1d7-4333-b868-d7e84faafd28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="rock.cpp">
+      <Filter>소스 파일\ingame\class</Filter>
+    </ClCompile>
+    <ClCompile Include="ingame.cpp">
+      <Filter>소스 파일\ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>소스 파일\ingame\field</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rock.h">
+      <Filter>소스 파일\ingame\class</Filter>
+    </ClInclude>
+    <ClInclude Include="ingame.h">
+      <Filter>소스 파일\ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>소스 파일\ingame\field</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
